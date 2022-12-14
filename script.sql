@@ -1,4 +1,4 @@
-```create table customer(
+create table customer(
     cust_id integer not null,
     cust_name varchar(255),
     contraint pk_cust
@@ -106,4 +106,4 @@ where item_id not in (
     select item_id
     from sale
 );
-```
+
